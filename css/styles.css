@@ -343,6 +343,9 @@ background-color: #404BBF
 .socal-link:focus{
 background-color:#4d5ae5;
 }
+.social-link-icons{
+    fill: #f4f4fd;
+}
 /*-----------------TEAM----------------*/
 
 /*-----------------PORTFOLIO----------------*/
