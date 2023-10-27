@@ -250,6 +250,15 @@ background-color: #404BBF
 .feature-list{
     width: calc((100% - 72px) / 4);
 }
+.feature-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+}
 
 .feature{
     margin-bottom: 8px;
