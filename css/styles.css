@@ -326,11 +326,16 @@ background-color: #404BBF
     justify-content: center;
     gap: 24px;
 }
-.scial-icons{
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
 }
-.socal-link{
+.social-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,8 +344,8 @@ background-color: #404BBF
     border-radius: 50%;
     background-color: #4d5ae5;
 }
-.socal-link:hover,
-.socal-link:focus{
+.social-link:hover,
+.social-link:focus{
 background-color:#4d5ae5;
 }
 .social-link-icons{
