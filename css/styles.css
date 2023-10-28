@@ -432,10 +432,12 @@ background-color:#4d5ae5;
 .logo-span{
     color: #f4f4fd;
 }
-
-.footer-containr{
+.footer-div{
     display: flex;
     align-items: baseline;
+}
+
+.footer-containr{
     margin-right: 120px;
 }
 
