@@ -340,6 +340,7 @@ background-color: #404BBF
     height: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;
+    
 }
 .social-link:hover,
 .social-link:focus{
@@ -370,10 +371,12 @@ background-color:#404bbf;
 }
 
 .apps{
-    transition: box-shadow 250ms 
-    cubic-bezier(0.4, 0, 0.2, 1);
+     
     width: calc((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
+}
+.apps:hover{
+box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .name-apps{
