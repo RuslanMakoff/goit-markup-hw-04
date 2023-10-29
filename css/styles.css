@@ -370,6 +370,8 @@ background-color:#404bbf;
 }
 
 .apps{
+    transition: box-shadow 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
 }
@@ -387,8 +389,11 @@ background-color:#404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+   
 }
-
+.text-portfol:hover{
+    transform: translateY(0%);
+}
 .head-portfol{
     margin-bottom: 8px;
     font-size: 20px;
